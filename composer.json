@@ -27,7 +27,7 @@
   },
   "extra": {
     "typo3/cms": {
-      "extension-key": "bpn_variable_text"
+      "extension-key": "bpn_configuration"
     }
   }
 }
