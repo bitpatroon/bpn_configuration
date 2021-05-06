@@ -1,12 +1,14 @@
 <?php
+
 /***************************************************************
  *  Copyright notice
  *
- *  (c) 2015 Frans van der Veen, SPL
+ *  (c) 2021 Sjoerd Zonneveld  <code@bitpatroon.nl>
+ *  Date: 6-5-2021 21:37
  *
  *  All rights reserved
  *
- *  This script is part of the TYPO3 project. The TYPO3 project is
+ *  This script is part of a Bitpatroon project. The project is
  *  free software; you can redistribute it and/or modify
  *  it under the terms of the GNU General Public License as published by
  *  the Free Software Foundation; either version 3 of the License, or
