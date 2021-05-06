@@ -1,0 +1,33 @@
+{
+  "name": "bitpatroon/bpn_configuration",
+  "type": "typo3-cms-extension",
+  "description": "Allows special configuration",
+  "keywords": [
+    "typo3",
+    "configuration"
+  ],
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "Sjoerd Zonneveld",
+      "homepage": "https://www.bitpatroon.nl",
+      "role": "Developer"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+  },
+  "config": {
+    "optimize-autoloader": true
+  },
+  "autoload": {
+    "psr-4": {
+      "BPN\\Configuration\\": "Classes"
+    }
+  },
+  "extra": {
+    "typo3/cms": {
+      "extension-key": "bpn_variable_text"
+    }
+  }
+}
