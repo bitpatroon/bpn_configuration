@@ -102,6 +102,10 @@ abstract class AbstractConfigurationContainer
             $value = TypoScriptUtility::getTypoScriptValueByPath($settings, $property);
         }
 
+        if (strpos($value, '{$') == true){
+            $value = '';
+        }
+
         return $value;
     }
 }
